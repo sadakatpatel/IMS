@@ -1,0 +1,18 @@
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config
+# If you want to keep config.php on github as a template, keep it. 
+# But usually you want to exclude actual secrets.
+# For now, I'll keep it as it seems to contain default dev credentials.
+
+# Images/Uploads
+app/public/images/*
+!app/public/images/.gitkeep
